@@ -1,11 +1,11 @@
 const arrPositions = ['|', '/', '-', '\\', '|', '/', '-', '\\'];
-let time = 100
+let time = 100;
 
 for (const position of arrPositions) {
   setTimeout(() => {
     process.stdout.write(`\r ${position}    `);
-  }, time)
-  time += 200
+  }, time);
+  time += 200;
 };
 
 
